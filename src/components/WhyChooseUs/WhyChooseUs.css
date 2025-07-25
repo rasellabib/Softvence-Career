@@ -1,0 +1,52 @@
+.why-chose-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+.chose-card-div{
+    height: initial;
+}
+
+.chose-card {
+  border: 2px solid rgb(179, 179, 179);
+  height: 100%;
+  padding: 46px 41px 0 41px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chose-card-bottom-div{
+  position: relative;
+  height: 100px;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.chose-card-bottom {
+  bottom: 0;
+  left: -20px;
+  width: 100px;
+  height: 110px;
+  position: absolute;
+  background: var(--color-5);
+  border-radius: 3px;
+  transform: skewX(-19deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chose-card-bottom-div svg{
+    transform: skewX(19deg);
+}
+
+.button-white-div{
+    margin: auto;
+
+}

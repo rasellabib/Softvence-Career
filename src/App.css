@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  /*font Variable*/
+  --ff-Inter-sans: "Inter Sans", sans-serif;
+  /*Color Variable*/
+  --color-primary: #175730;
+  --color-black: #19191a;
+  --color-white: #ffffff;
+  --color-1: #175730;
+  --color-1: #343434;
+  --color-1: #b3bac5;
+  --color-5: #eefff5;
+}
+
+.button {
+  border: none;
+  background: #ffffff;
+  border-radius: 6px;
+  position: absolute;
+  height: 90px;
+  width: 45px;
+  left: -15px;
+  top: 0;
+  z-index: 0;
+  transform: skewX(19deg);
+}
+.custom-button {
+  position: relative;
+  display: flex;
+  background: #ffffff;
+  padding: 26px 99px 26px 6px;
+  gap: 18px;
+  position: relative;
+  border: none;
+  transform: skewX(-19deg);
+  border-radius: 6px;
+  transition: transform 0.3s ease-out;
+  box-shadow: 0px 8.1px 40.48px 0px #00000086;
+
+}
+
+.custom-button p {
+  transform: skewX(19deg);
+}
+.arrow-btn {
+  background: #000;
+  position: absolute;
+  width: 76px;
+  height: 82px;
+  right: 4px;
+  top: 4px;
+  border-radius: 4px;
+  transform: skewX(0deg);
+  background: #175730;
+  border-radius: 4px;
+  align-content: center;
+  transition: width 0.5s ease;
+}
+.custom-button:hover {
+  transform: skewX(0deg);
+}
+.custom-button:hover .button {
+  transform: skewX(0deg);
+}
+
+.custom-button:hover .arrow-btn {
+  width: calc(100% + 5px);
+  transform: skewX(0deg);
+}
+
+.custom-button:hover .arrow-btn img {
+  transform: skewX(0deg);
+}
+.custom-button:hover p {
+  transform: skewX(0deg);
+}
+.arrow-btn img {
+  transform: skewX(19deg);
+}
+
+/* white btn */
+.button-white {
+  border: none;
+  background: #175730;
+  border-radius: 6px;
+  position: absolute;
+  height: 90px;
+  width: 45px;
+  left: -15px;
+  top: 0;
+  z-index: 0;
+  transform: skewX(19deg);
+}
+.custom-button-white {
+  position: relative;
+  display: flex;
+  background: #175730;
+  color: white;
+  padding: 26px 99px 26px 6px;
+  gap: 18px;
+  position: relative;
+  border: none;
+  transform: skewX(-19deg);
+  border-radius: 6px;
+  transition: transform 0.3s ease-out;
+  box-shadow: 0px 10px 50px 0px #00000066;
+
+
+}
+
+.custom-button-white p {
+  transform: skewX(19deg);
+}
+.arrow-btn-white {
+  background: #000;
+  position: absolute;
+  width: 76px;
+  height: 82px;
+  right: 4px;
+  top: 4px;
+  border-radius: 4px;
+  transform: skewX(0deg);
+  background: #ffffff;
+  border-radius: 4px;
+  align-content: center;
+  transition: width 0.5s ease;
+}
+.custom-button-white:hover {
+  transform: skewX(0deg);
+}
+.custom-button-white:hover .button-white {
+  transform: skewX(0deg);
+}
+
+.custom-button-white:hover .arrow-btn-white {
+  width: calc(100% + 5px);
+  transform: skewX(0deg);
+}
+
+.custom-button-white:hover .arrow-btn-white svg {
+  transform: skewX(0deg);
+}
+.custom-button-white:hover p {
+  transform: skewX(0deg);
+}
+.arrow-btn-white svg {
+  transform: skewX(19deg);
+}

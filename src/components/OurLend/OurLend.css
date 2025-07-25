@@ -1,0 +1,84 @@
+.lend-sec {
+  background: radial-gradient(circle at center, #499668 0%, #165831 100%);
+}
+.lend-div {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.lend-p {
+  font-size: 24px;
+  font-weight: 200;
+  color: var(--color-white);
+  margin-top: 10px;
+}
+span {
+  font-weight: 900;
+}
+
+.lend-card-div {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+
+  button {
+    background: transparent;
+    border: 2px solid var(--color-white);
+    padding: 18px 45px;
+    border-radius: 999px;
+    color: var(--color-white);
+    margin-top: 40px;
+  }
+}
+.lend-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  border-radius: 0px 60px 0px 60px;
+  background: linear-gradient(
+    rgba(96, 230, 152, 0.7) 0%,
+    rgba(0, 0, 0, 0.78) 100%
+  );
+}
+.card1 {
+  position: relative;
+  height: 560px;
+  width: 440px;
+  border-radius: 0px 60px 0px 60px;
+  border: 2px solid var(--color-white);
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("/card1.png");
+  background-size: cover;
+}
+
+.card2 {
+    position: relative;
+    height: 560px;
+    width: 440px;
+    border-radius: 0px 60px 0px 60px;
+    border: 2px solid var(--color-white);
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("/card2.jpg");
+    background-size: cover;
+  }
+.card-in-content{
+    z-index: 1;
+}
+
+.button-div{
+    margin: auto;
+}
