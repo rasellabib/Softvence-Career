@@ -12,6 +12,7 @@ import PastProjects from './components/PastProjects/PastProjects';
 import WhyInterested from './components/WhyInterested/WhyInterested';
 import Resources from './components/ResourcesSec/Resources';
 import FooterHero from './components/footerHero/FooterHero';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
     <WhyInterested/>
     <Resources/>
     <FooterHero/>
+    <Footer/>
     </>
   )
 }
