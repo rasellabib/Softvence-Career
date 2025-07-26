@@ -38,7 +38,7 @@ const Resources = () => {
                     </div>
                 </div>
                 <div className="resources-card">
-                    <img src="/resource3.png" alt="" />
+                    <img src="/resources3.png" alt="" />
                     <div className="resources-content">
                         <div className="date"> May 9, 2024</div>
                         <h5>

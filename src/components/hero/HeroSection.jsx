@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div>
       <div className="hero-image">
-        <div className="overly">{/* <img src="/house.png" alt="" /> */}</div>
+        <div className="overly">{/* <img src="/house.webp" alt="" /> */}</div>
         <div className="Subtract">
           {/* <img src="/Subtract.png" alt="" /> */}
         </div>
