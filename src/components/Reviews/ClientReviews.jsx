@@ -77,7 +77,7 @@ const ClientReviews = () => {
       <div className="reviews-div position-absolute">
         <div className="container">
           <div className="text-center">
-            <h1 className="sec-padding-bottom">Ridge Street Client Reviews</h1>
+          <h2 className="section-title">Ridge Street Client Reviews</h2>
           </div>
           <div className="carousel-row">
             {visibleCards.map((review, index) => (

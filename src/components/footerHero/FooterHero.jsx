@@ -1,24 +1,26 @@
 import React from "react";
-import "./hero.css";
+import "./FooterHero.css";
 
-const HeroSection = () => {
+const FooterHero = () => {
   return (
     <div>
       <div className="hero-image">
         <div className="overly">{/* <img src="/house.png" alt="" /> */}</div>
-        <div className="Subtract">
+        <div className="Subtract1">
           {/* <img src="/Subtract.png" alt="" /> */}
         </div>
         <div className="glass"></div>
         <div className="hero-padding-top-bottom">
           <div className="container">
             <div className="row">
-              <div className="col-md-7 align-content-center">
+              <div className="col-md-6 align-content-center">
                 <div className="hero-content">
-                  <h1>Florida and Texas Hard Money Lenders</h1>
-                  <p className="h3 mt-20">
-                    Fast Closing Fix and Flip and Rental Loans For Your
-                    Investment Properties.
+                  <h1 className="mb-40">Ready To Get Started</h1>
+                  <p className="mb-40">
+                    With Ridge Street, obtaining a private mortgage loan is
+                    easier than you think! You can get pre-approved online and a
+                    Term Sheet that Meet’s your needs will be sent to you within
+                    the hour.
                   </p>
                   <div className="button-white-div margin-top-60">
                     <button href="#" class="custom-button-white">
@@ -56,4 +58,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default FooterHero;

@@ -9,6 +9,7 @@ const OurLend = () => {
           <div className="container">
             <div className="lend-div">
               <div className="lend-content">
+                
                 <h2 className=" text-white">Where We Lend</h2>
                 <p className="lend-p">
                   Ridge Street provides hard money loans to real estate
