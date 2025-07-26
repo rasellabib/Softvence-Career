@@ -3,7 +3,10 @@
   flex-direction: column;
   gap: 80px;
 }
-
+.button-white-div-center{
+  display: flex;
+  justify-content: center;
+}
 .interested-card-div {
   display: flex;
   gap: 37px;

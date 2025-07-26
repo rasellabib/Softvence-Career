@@ -104,7 +104,7 @@ const WhyInterested = () => {
                 </div>
               </div>
             </div>
-            <div className="button-white-div">
+            <div className="button-white-div button-white-div-center">
               <button href="#" class="custom-button-white">
                 <div className="button-white"></div>
                 <p>Get Approved Online</p>

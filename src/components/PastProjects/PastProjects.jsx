@@ -49,7 +49,7 @@ const PastProjects = () => {
               <div className="project-cards-div">
                 <div className="project-cards">
                   <div className="project-cards-img">
-                    <img src="/card1.png" alt="" />
+                    <img src="/card1.webp" alt="" />
                     <div className="for-sale ont-normal-18">
                       <p>For Sale</p>
                     </div>
@@ -192,7 +192,7 @@ const PastProjects = () => {
               <div className="project-cards-div">
                 <div className="project-cards">
                   <div className="project-cards-img">
-                    <img src="/card1.png" alt="" />
+                    <img src="/card1.webp" alt="" />
                     <div className="for-sale ont-normal-18">
                       <p>For Sale</p>
                     </div>
@@ -335,7 +335,7 @@ const PastProjects = () => {
               <div className="project-cards-div">
                 <div className="project-cards">
                   <div className="project-cards-img">
-                    <img src="/card1.png" alt="" />
+                    <img src="/card1.webp" alt="" />
                     <div className="for-sale ont-normal-18">
                       <p>For Sale</p>
                     </div>
