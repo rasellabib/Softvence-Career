@@ -8,6 +8,7 @@ import LoanProducts from './components/LoanProducts/LoanProducts';
 import OurLend from './components/OurLend/OurLend';
 import WhyChooseUs from './components/WhyChooseUs/WhyChooseUs';
 import ClientReviews from './components/Reviews/ClientReviews';
+import PastProjects from './components/PastProjects/PastProjects';
 
 function App() {
 
@@ -19,6 +20,8 @@ function App() {
     <OurLend/>
     <WhyChooseUs/>
     <ClientReviews/>
+    <PastProjects/>
+
     </>
   )
 }

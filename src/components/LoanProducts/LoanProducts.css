@@ -167,27 +167,7 @@
   color: #fff;
 }
 
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 340px;
-  gap: 8px;
-  padding: 10px 20px;
-  background-color: #1b5331;
-  color: white;
-  font-weight: 600;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.5s ease;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-}
 
-.loan-card:hover .btn {
-  background-color: #ffffff;
-  color: #1b5331;
-}
 .loan-card:hover {
   color: white;
 }
@@ -205,8 +185,13 @@ h6 {
 small {
   margin-bottom: 20px;
 }
-
-@media (max-width: 992px) {
+@media (max-width: 525px) {
+  .cards-container {
+    flex-direction:inherit;
+    align-items: center;
+  }
+}
+@media  (min-width: 600px) and (max-width: 992px) {
   .cards-container {
     flex-direction: column;
     align-items: center;

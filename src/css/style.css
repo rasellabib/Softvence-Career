@@ -75,7 +75,12 @@ img {
 .mb-20{
   margin-bottom: 20px;
 }
-
+.mt-17{
+  margin-top: 17px;
+}
+.mt-12{
+  margin-top: 12px;
+}
 
 h1,
 h2,
@@ -124,6 +129,7 @@ h4,
 .h4 {
   font-size: 24px;
   line-height: 116.667%;
+  color: var(--color-primary);
 }
 
 h5,
@@ -288,7 +294,9 @@ input:-webkit-autofill:focus {
 .row-margin-bottom {
   margin-bottom: 60px;
 }
-
+.margin-left-10{
+ margin-left: 10%;
+}
 .sec-padding-top {
   padding-top: 80px;
 }

@@ -1,17 +1,22 @@
-.why-chose-sec{
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
+.why-chose-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
+.chose-card-div {
+  display: flex;
+  gap: 37px;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: initial;
 
-.chose-card-div{
-    height: initial;
 }
 
 .chose-card {
   border: 2px solid rgb(179, 179, 179);
-  height: 100%;
+  width: 400px;
+  height: initial;
   padding: 46px 41px 0 41px;
   border-radius: 8px;
   overflow: hidden;
@@ -21,7 +26,7 @@
   justify-content: space-between;
 }
 
-.chose-card-bottom-div{
+.chose-card-bottom-div {
   position: relative;
   height: 100px;
   width: 100%;
@@ -42,11 +47,10 @@
   align-items: center;
 }
 
-.chose-card-bottom-div svg{
-    transform: skewX(19deg);
+.chose-card-bottom-div svg {
+  transform: skewX(19deg);
 }
 
-.button-white-div{
-    margin: auto;
-
+.button-white-div {
+  margin: auto;
 }
